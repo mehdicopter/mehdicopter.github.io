@@ -1,0 +1,25 @@
+# Site Settings
+title: Mon CV
+url: 'https://mehdicopter.github.io'
+
+description: 10 ans d'expérience dans le monde de l'IT
+# Style will be applied only after restarting the build or serve. Just choose one of the options.
+theme_skin: blue # blue turquoise green berry orange ceramic
+chrome_mobile_color: #use hex colors (ex:#1976d2) or leave empty if you don't want a color for chrome mobile searchbar
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
+# Build settings
+compress-site: yes
+
+encoding: "utf-8"
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
+
+# Development Settings
+safe: false
