@@ -1,8 +1,8 @@
 # Site Settings
 title: Mon CV
-url: 'https://mehdicopter.github.io'
+url: "https://mehdicopter.github.io"
 
-description: 10 ans d'expérience dans le monde de l'IT
+description: As de la clé à molette du cloud, gardien infatigable de la fiabilité numérique
 # Style will be applied only after restarting the build or serve. Just choose one of the options.
 theme_skin: blue # blue turquoise green berry orange ceramic
 chrome_mobile_color: #use hex colors (ex:#1976d2) or leave empty if you don't want a color for chrome mobile searchbar

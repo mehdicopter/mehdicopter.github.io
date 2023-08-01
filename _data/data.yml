@@ -22,106 +22,112 @@ sidebar:
     - item: Cybersécurité
 
 career-profile:
-    title: Profil
-    summary: |
-      Fort de 10 années d'expériences, passionné d’automatisation, je m’efforce de promouvoir les bonnes pratiques DevOps
-      dans des environnements avec infrastrustures hébergées dans le Cloud.
-      J’ai une appétence pour le domaine de la cybersécurité, quelle soit défensive ou bien offensive.
+  title: Profil
+  summary: |
+    Fort de 10 années d'expériences, passionné d’automatisation, je m’efforce de promouvoir les bonnes pratiques DevOps
+    dans des environnements avec infrastructures hébergées dans le Cloud.
+    J’ai une appétence pour le domaine de la cybersécurité, quelle soit défensive ou bien offensive.
 
 education:
-    - degree: Formation professionnelle
-      university: C.N.A.M Sécurité Défense, Ploufagran
-      time: 2011 - 2012
-    - degree: Erasmus
-      university: Czech Technical University, Prague
-      time: 2010 - 2011
-    - degree: DUT
-      university: Institut Universitaire de Technologie, La Rochelle
-      time: 2008 - 2010
+  - degree: Formation professionnelle
+    university: C.N.A.M Sécurité Défense, Ploufagran
+    time: 2011 - 2012
+  - degree: Erasmus
+    university: Czech Technical University, Prague
+    time: 2010 - 2011
+  - degree: DUT
+    university: Institut Universitaire de Technologie, La Rochelle
+    time: 2008 - 2010
 
 experiences:
-    - role: Senior Cloud Engineer
-      time: 2021 - Present
-      company: MeilleursAgents, Paris
-      details: |
-        - Automatisation de l'infrastructure avec Terraform
-        - Gestion de configuration avec Ansible
-        - Administration clusters Kubernetes (GKE)
-        - CI/CD à l'aide de respectivement Jenkins et ArgoCD
-    - role: Cloud Engineer
-      time: 2019 - 2021
-      company: PathMotion, Paris
-      details: |
-        - Responsable infrastructure GCP
-        - Administration clusters Kubernetes (GKE)
-        - Mise en place d'Instana (Application Performance Monitoring)
-        - Mise en place de pipelines de Continuous Integration avec CircleCI
-    - role: Senior Linux Sysadmin
-      time: 2019 - 2019
-      company: Talend, Suresnes
-      details: |
-        - Installation d’un système de supervision (Icinga)
-        - Création de roles et playbooks Ansible
-        - Tests de ces derniers sur AWS en mode CI/CD (Travis CI)
-        - Environnement international
-    - role: Tech Lead Sysadmin
-      time: 2016 - 2019
-      company: Ministère de l'Intérieur, Levallois-Perret
-      details: |
-        - Lead équipe Infrastructure
-        - Création d’infrastructures à fortes contraintes de sécurité
-        - Sécurisation des environnements (SSL, GPG, SELinux, Yubikey)
-        - Centralisation et gestion de logs (ELK)
-        - Mise en place de cloisonnement d’informations par diode réseau
-    - role: Windows Sysadmin
-      time: 2014 - 2016
-      company: Ministère de l'Intérieur, Place Beauvau - Porte de Vincennes
-      details: |
-        - Refonte de l’infrastructure de virtualisation (VMware 5.x)
-        - Maintien en conditions opérationnelles du domaine Active Directory
-        - Support et aide aux utilisateurs
-    - role: Linux Sysadmin
-      time: 2012 - 2014
-      company: Ministère de l'Intérieur, Levallois-Perret
-      details: |
-        - Installation d’un système de supervision (Nagios/Shinken)
-        - Industrialisation, déploiement, et gestion de serveurs Linux (Debian and RedHat/CentOS)
-        - Maintien en conditions opérationnelles de la virtualisation (VMware 5.x)
+  - role: Senior Cloud Engineer
+    time: 2022 - 2022
+    company: DialOnce, Paris
+    details: |
+      - GKE, ArgoCD
+      - Monitoring
+  - role: Senior Cloud Engineer
+    time: 2021 - 2022
+    company: MeilleursAgents, Paris
+    details: |
+      - Automatisation de l'infrastructure avec Terraform
+      - Gestion de configuration avec Ansible
+      - Administration clusters Kubernetes (GKE)
+      - CI/CD à l'aide de respectivement Jenkins et ArgoCD
+  - role: Cloud Engineer
+    time: 2019 - 2021
+    company: PathMotion, Paris
+    details: |
+      - Responsable infrastructure GCP
+      - Administration clusters Kubernetes (GKE)
+      - Mise en place d'Instana (Application Performance Monitoring)
+      - Mise en place de pipelines de Continuous Integration avec CircleCI
+  - role: Senior Linux Sysadmin
+    time: 2019 - 2019
+    company: Talend, Suresnes
+    details: |
+      - Installation d’un système de supervision (Icinga)
+      - Création de roles et playbooks Ansible
+      - Tests de ces derniers sur AWS en mode CI/CD (Travis CI)
+      - Environnement international
+  - role: Tech Lead Sysadmin
+    time: 2016 - 2019
+    company: Ministère de l'Intérieur, Levallois-Perret
+    details: |
+      - Lead équipe Infrastructure
+      - Création d’infrastructures à fortes contraintes de sécurité
+      - Sécurisation des environnements (SSL, GPG, SELinux, Yubikey)
+      - Centralisation et gestion de logs (ELK)
+      - Mise en place de cloisonnement d’informations par diode réseau
+  - role: Windows Sysadmin
+    time: 2014 - 2016
+    company: Ministère de l'Intérieur, Place Beauvau - Porte de Vincennes
+    details: |
+      - Refonte de l’infrastructure de virtualisation (VMware 5.x)
+      - Maintien en conditions opérationnelles du domaine Active Directory
+      - Support et aide aux utilisateurs
+  - role: Linux Sysadmin
+    time: 2012 - 2014
+    company: Ministère de l'Intérieur, Levallois-Perret
+    details: |
+      - Installation d’un système de supervision (Nagios/Shinken)
+      - Industrialisation, déploiement, et gestion de serveurs Linux (Debian and RedHat/CentOS)
+      - Maintien en conditions opérationnelles de la virtualisation (VMware 5.x)
 
 projects:
-    title: Formations
-    assignments:
-      - title: Pentesting Linux Systems
-        link: "https://www.synacktiv.com/en/offres/formations/pentesting-linux-systems.html"
-        tagline: "Synacktiv"
-      - title: Pentesting Windows Systems
-        link: "https://www.synacktiv.com/en/offres/formations/pentesting-windows-systems.html"
-        tagline: "Synacktiv"
+  title: Formations
+  assignments:
+    - title: Pentesting Linux Systems
+      link: "https://www.synacktiv.com/en/offres/formations/pentesting-linux-systems.html"
+      tagline: "Synacktiv"
+    - title: Pentesting Windows Systems
+      link: "https://www.synacktiv.com/en/offres/formations/pentesting-windows-systems.html"
+      tagline: "Synacktiv"
 
 publications:
-    title: Concours et Articles
-    papers:
-      - title: How PathMotion Future Proofs Their Cloud-Agnostic Platform with Instana
-        link: "https://www.instana.com/blog/how-pathmotion-future-proofs-their-cloud-agnostic-platform-with-instana/"
-        authors: 2020
-      - title: Technicien des Systèmes d’Information et de Communication de Classe Supérieure du Ministère de l'Intérieur
-        link: "https://www.interieur.gouv.fr/A-votre-service/Le-ministere-recrute/Filiere-systemes-d-information-et-de-communication/Les-metiers-de-la-filiere-systemes-d-information-et-de-communication/Technicien-des-systemes-d-information-et-de-communication"
-        authors: 2014
+  title: Concours et Articles
+  papers:
+    - title: How PathMotion Future Proofs Their Cloud-Agnostic Platform with Instana
+      link: "https://www.instana.com/blog/how-pathmotion-future-proofs-their-cloud-agnostic-platform-with-instana/"
+      authors: 2020
+    - title: Technicien des Systèmes d’Information et de Communication de Classe Supérieure du Ministère de l'Intérieur
+      link: "https://www.interieur.gouv.fr/A-votre-service/Le-ministere-recrute/Filiere-systemes-d-information-et-de-communication/Les-metiers-de-la-filiere-systemes-d-information-et-de-communication/Technicien-des-systemes-d-information-et-de-communication"
+      authors: 2014
 
 skills:
-    title: Compétences techniques
-    toolset:
-      - name: Google Cloud Platform
-        level: 98%
-      - name: Kubernetes, Docker
-        level: 98%
-      - name: Terraform, Ansible
-        level: 98%
-      - name: SSL, GPG, Yubikey
-        level: 98%
-      - name: CircleCI, Jenkins
-        level: 95%
-      - name: Prometheus, Grafana
-        level: 95%  
-      - name: Bash, Python, Go
-        level: 90%
+  title: Compétences techniques
+  toolset:
+    - name: Google Cloud Platform
+      level: 98%
+    - name: Kubernetes, Docker
+      level: 98%
+    - name: Terraform, Ansible
+      level: 98%
+    - name: SSL, GPG, Yubikey
+      level: 98%
+    - name: CircleCI, Jenkins
+      level: 95%
+    - name: Prometheus, Grafana
+      level: 95%
+    - name: Bash, Python, Go
+      level: 90%
