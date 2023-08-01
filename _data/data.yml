@@ -125,9 +125,5 @@ skills:
       level: 98%
     - name: SSL, GPG, Yubikey
       level: 98%
-    - name: CircleCI, Jenkins
-      level: 95%
     - name: Prometheus, Grafana
       level: 95%
-    - name: Bash, Python, Go
-      level: 90%
