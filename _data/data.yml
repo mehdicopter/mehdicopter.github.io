@@ -41,7 +41,13 @@ education:
 
 experiences:
   - role: Senior Cloud Engineer
-    time: 2021 - Present
+    time: 2022 - 2022
+    company: DialOnce, Paris
+    details: |
+      - GKE, ArgoCD
+      - Monitoring
+  - role: Senior Cloud Engineer
+    time: 2021 - 2022
     company: MeilleursAgents, Paris
     details: |
       - Automatisation de l'infrastructure avec Terraform
