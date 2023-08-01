@@ -28,6 +28,8 @@ career-profile:
     dans des environnements avec infrastructures hébergées dans le Cloud.
     J’ai une appétence pour le domaine de la cybersécurité, quelle soit défensive ou bien offensive.
 
+    "Les SREs, les as de la clé à molette du cloud, gardiens infatigables de la fiabilité numérique !"
+
 education:
   - degree: Formation professionnelle
     university: C.N.A.M Sécurité Défense, Ploufagran
@@ -40,6 +42,15 @@ education:
     time: 2008 - 2010
 
 experiences:
+  - role: Senior SRE
+    time: 2023 - Present
+    company: Scaleway, Paris
+    details: |
+      - Instances, Baremetal
+      - MCO hyperviseurs
+      - Ansible
+      - KVM, qemu, Proxmox
+      - Nomad, k8s
   - role: Senior Cloud Engineer
     time: 2022 - 2022
     company: DialOnce, Paris
