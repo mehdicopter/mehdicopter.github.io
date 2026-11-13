@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr" data-color-mode="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mehdi Mahfoudi — Head of Infrastructure · Cloud &amp; Platform Lead</title>
+  <meta name="description" content="Mehdi Mahfoudi — Head of Infrastructure, Cloud Architecture, Kubernetes, FinOps &amp; Cybersecurity (Paris, France)." />
+  <meta property="og:title" content="Mehdi Mahfoudi — Head of Infrastructure · Cloud &amp; Platform Lead" />
+  <meta property="og:description" content="14+ years designing, securing, and scaling critical infrastructure — Cloud, Kubernetes, FinOps &amp; Cybersecurity." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://mahfoudi.me" />
+
+  <!-- Favicon SVG -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0%25' stop-color='%231e3a8a'/%3E%3Cstop offset='100%25' stop-color='%234f46e5'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='16' fill='url(%23g)'/%3E%3Ctext x='50%25' y='54%25' dominant-baseline='middle' text-anchor='middle' font-family='Georgia,serif' font-weight='700' font-size='26' fill='%23ffffff'%3EMM%3C/text%3E%3C/svg%3E" />
+
+  <!-- Google Fonts: Editorial Newsreader + Plus Jakarta Sans + JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;600&family=Newsreader:ital,opsz,wght@0,6..72,500;0,6..72,600;1,6..72,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Ambient subtle aurora glow -->
+  <div class="ambient-glow no-print" aria-hidden="true"></div>
+
+  <!-- Sleek Top Controls (Language, Light/Dark, Download 1-Page PDF) -->
+  <nav class="topbar no-print" aria-label="Options d'affichage">
+    <div class="topbar__inner">
+      <a href="https://mahfoudi.me" class="topbar__brand">
+        <span class="topbar__dot"></span>
+        <span>mahfoudi.me</span>
+      </a>
+
+      <div class="topbar__actions">
+        <button type="button" class="icon-btn" id="btn-color-mode" aria-label="Basculer thème clair ou sombre" title="Clair / Sombre">
+          ☾
+        </button>
+
+        <div class="lang-switch" role="group" aria-label="Langue">
+          <button type="button" class="lang-btn active" data-set-lang="fr">FR</button>
+          <button type="button" class="lang-btn" data-set-lang="en">EN</button>
+        </div>
+
+        <a href="assets/Mehdi_Mahfoudi_CV_FR.pdf" download="Mehdi_Mahfoudi_CV_FR.pdf" class="print-btn" id="btn-print">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+            <polyline points="7 10 12 15 17 10"/>
+            <line x1="12" y1="15" x2="12" y2="3"/>
+          </svg>
+          <span id="print-label">Télécharger CV (PDF)</span>
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Web Interactive CV -->
+  <main id="app-root" class="no-print"></main>
+
+  <!-- Dedicated 1-Page A4 Executive Print Sheet -->
+  <section id="print-sheet" class="print-sheet" aria-hidden="true"></section>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

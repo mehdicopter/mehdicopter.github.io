@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="14" fill="#c41230"/>
+  <text x="32" y="27" text-anchor="middle" font-family="Georgia, serif" font-style="italic" font-size="11" fill="#fde2e6">le</text>
+  <text x="32" y="43" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-weight="800" font-size="16" letter-spacing="-0.5" fill="#ffffff">cnam</text>
+</svg>
